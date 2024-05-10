@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+button {
+   width: 7%;
+   height: 4em;
+   text-align: center;
+   justify-content: center;
+   border-radius: 2rex;
+   background-color: turquoise;
+}
+/* 
+
+.i {
+    width: 50px;
+}
+
+.tab {
+    width: 85px;
+}
+
+.ll {
+    width: 70px;
+}
+
+.BS {
+    width: 105px;
+}
+
+.CapsLk {
+    width: 105px;
+}
+
+.Enter {
+    width: 120px;
+}
+
+.Shift {
+    width: 145px;
+}
+img{
+    padding: 0;
+    margin: 0;
+}
+
+.wnds{
+    transform: translateY(8px);
+}
+
+.Space {
+   width: 19%;
+} */
+
+/* taahir's code */
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    background-color: black;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* special characters */
+.bckspc{
+    width: 14%;
+    text-align: right;
+    padding-right: 1%;
+}
+.entr{
+    width: 15%;
+}
+.shft{
+    width: 18%;
+}
+.tab{
+    width: 9%;
+    text-align: left;
+}
+.cpsLk{
+    width: 10%;
+    text-align: left;
+}
+.shft-left{
+    width: 12%;
+    text-align: left;
+}
+
+.spcbr{
+    width:38%
+}
